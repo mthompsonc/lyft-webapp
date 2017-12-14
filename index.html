@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://use.fontawesome.com/c983d8eba6.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Splash -->
+  <section id="splash" class="splash">
+    <div class="row">
+      <div class="col s12">
+        <img src="assets/img/logo-white.png" class="logo-white1 center-block">
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- log-in / sign-up -->
+  <section class="login" id="firstpage">
+    <div class="container">
+      <div class="row">
+        <img src="assets/img/logo-white.png" class="logo-white center-block">
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <img src="assets/img/lyftlife.png" class="lyftlife center-block">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6">
+          <button type="button" name="button" class="N/A transparent logsign center-block">LOG IN</button>
+        </div>
+        <div class="col s6">
+          <button type="button" name="button" class="N/A transparent logsign center-block" id="signupbtn">SIGN UP</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sign UP -->
+
+  <section class="signup" id="signup">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <a href="#" class="ico-circle" id="btn-back"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+
+        </div>
+        <div class="col s12">
+          <h5 class="center-align">SIGN UP</h5>
+        </div>
+        <div class="col s12">
+          <p class="text center-align">Join now for free ride credit</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12">
+          <dl id="sample" class="dropdown menubanderas">
+            <dt><a href="#"><span>Country</span></a></dt>
+            <dd>
+              <ul>
+                <li><a href="#" id="imgcol"><img class="flag" style="width:50px;" src="assets/img/flag-col.png" alt="" /><span class="value"></span></a></li>
+                <li><a href="#" id="imgper"><img class="flag" style="width:50px;" src="assets/img/flag-per.png"><span class="value"></span></a></li>
+                <li><a href="#" id="imgmex"><img class="flag" style="width:50px;" src="assets/img/flag-mex.png"><span class="value"></span></a></li>
+                <li><a href="#" id="imgusa"><img class="flag" style="width:50px;" src="assets/img/flag-usa.png"><span class="value"></span></a></li>
+              </ul>
+            </dd>
+          </dl>
+          <div class="codes">
+            <p id="codecol">+57</p>
+            <p id="codeper">+51</p>
+            <p id="codemex">+52</p>
+            <p id="codeusa">+001</p>
+          </div>
+          <input id="number" class="number" type="number" placeholder="number">
+        </div>
+        <div class="col s12">
+          <p class="center-align">We will send you a text to verify your phone.</p>
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <button type="button" id="btnext" class="center-block next2" name="button">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="verify">
+    <div class="row">
+      <div class="col s12">
+        <a href="#" class="ico-circle" id="btn-back2"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <h5 class="center-align">Verify phone number</h5>
+          <p class="text center-align">Join now for free ride credit</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <div class="lab center-align">LAB- <input id="code" type="number" placeholder="Code"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <p class="center-align">Enter the code sent to your phone.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12">
+          <button type="button" id="btnresend" class="center-block resend" name="button">Resend Code</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12">
+          <button type="button" id="btnext-2" class="center-block next2 disabled" name="button">Next</button>
+        </div>
+      </div>
+  </section>
+
+  <section id="register">
+    <div class="row">
+      <div class="col s12">
+        <a href="#" class="ico-circle" id="btn-back3"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h5 class="center-align">Sign Up</h5>
+        <p class="text center-align">Join now for free ride credit</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="contenedor">
+          <div class="icou"><i class="fa fa-user-o" aria-hidden="true"></i></div>
+          <div class="name-in">
+            <input type="text" placeholder="Name" id="name">
+            <input type="text" placeholder="Lastname" id="lastname">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="contenedor">
+          <div class="icou"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+          <div class="mailin">
+            <input type="text" placeholder="Email" id="email">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 check">
+        <form action="#" id="check">
+          <p>
+            <label>
+              <input type="checkbox" />
+                <span>I agree to Lift`s <a href="#">Terms of Service.</a></span>
+            </label>
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <button type="button" id="btnext-3" class="center-block next2 disabled" name="button">Next</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="final" class="lastview">
+    <div class="row">
+      <div class="col s12">
+        <img src="assets/img/logo-pink.png" class="fimg1 center-block">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12">
+        <h3 class="center-align">You have successfully registered</h3>
+        <img src="assets/img/check.png" class="fimg2 center-block">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12">
+        <button type="button" id="btnext-4" class="center-block next3" name="button">Another sign up?</button>
+      </div>
+    </div>
+
+
+  </section>
+
+  <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+
+
+</html>

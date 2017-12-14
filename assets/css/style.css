@@ -1,0 +1,282 @@
+    /* Splash */
+
+    .splash {
+      width: 100%;
+      padding-top: 61%;
+      padding-bottom: 61%;
+      background-size: 100%;
+      background: #cb60b3;
+      /* Old browsers */
+      background: -moz-linear-gradient(top, #cb60b3 0%, #ad1283 50%, #de47ac 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, #cb60b3 0%, #ad1283 50%, #de47ac 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, #cb60b3 0%, #ad1283 50%, #de47ac 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac', GradientType=0);
+      /* IE6-9 */
+    }
+
+    .logo-white1 {
+      width: 30vh;
+      vertical-align: middle;
+    }
+
+    /* First Page */
+
+    .login {
+      height: 100%;
+      max-width: 100%;
+      padding: 2.4vh;
+      background-image: url(../img/cars-background1.jpg);
+      background-repeat: no-repeat;
+      object-fit: cover;
+      background-position-y: -64vh;
+    }
+
+    .logo-white {
+      width: 12vh;
+      opacity: none;
+    }
+
+    .lyftlife {
+      width: 49vh;
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+    }
+
+    .logsign {
+      border-color: #FFFFFF;
+      border-radius: 1vh;
+      color: #FFFFFF;
+      height: 7vh;
+      width: 16vh;
+      margin-top: 9.5vh;
+      margin-bottom: 4vh;
+    }
+
+    /* Sign Up */
+
+    .ico-circle {
+      width: 10vh;
+      height: 10vh;
+      font-size: 4.6vh;
+      margin-top: 2vh;
+      color: #b010ae;
+    }
+
+    .text {
+      border: none;
+      border-bottom: 0.13vh solid #b9b9b9;
+      padding-bottom: 1vh;
+    }
+
+    .icons {
+      min-width: 74px !important;
+    }
+
+    /* dropdown */
+
+    .dropdown dd, .dropdown dt, .dropdown ul {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .dropdown dd {
+      position: relative;
+    }
+
+    .dropdown a, .dropdown a:visited {
+      color: #000000;
+      text-decoration: none;
+      outline: none;
+    }
+
+    .dropdown dt a {
+      background: url('http://www.jankoatwarpspeed.com/wp-content/uploads/examples/reinventing-drop-down/arrow.png') no-repeat scroll right center;
+      display: block;
+      padding-right: 5px;
+      width: 90px;
+    }
+
+    .dropdown dt a span {
+      cursor: pointer;
+      display: block;
+      padding: 5px;
+    }
+
+    .dropdown dd ul {
+      background: none repeat scroll 0 0;
+      color: #C5C0B0;
+      display: none;
+      left: 0px;
+      padding: 5px 0px;
+      position: absolute;
+      top: 2px;
+      width: auto;
+      min-width: 60px;
+      list-style: none;
+    }
+
+    .dropdown span.value {
+      display: none;
+    }
+
+    .dropdown dd ul li a {
+      padding: 5px;
+      display: block;
+    }
+
+    .dropdown img.flag {
+      margin-top: 10px;
+      display: inline-block;
+    }
+
+    .flagvisibility {
+      display: none;
+    }
+
+    .menubanderas, .codes, .innumb {
+      display: inline-block;
+    }
+
+    #number {
+      width: 13vh !important;
+      border-color: #ed24d3!important;
+    }
+
+    #number:focus, #number:active {
+      outline: none!important;
+      border: none!important;
+    }
+
+    .codes {
+      margin-left: 3vh;
+      margin-right: 5vh;
+    }
+
+
+
+    .next {
+      width: 30vh;
+      height: 7vh;
+      margin-top: 42vh;
+      border: 0.4vh solid #ed24d3;
+      background-color: transparent;
+      border-radius: 1.5vh;
+    }
+
+    .next:focus, .next:active {
+      border-color: #ab19a1;
+      background-color: transparent;
+    }
+
+    /*Verify*/
+
+    .lab, .code {
+      display: inline-block;
+    }
+
+    .lab {
+      margin-left: 25vh;
+      margin-top: 5vh;
+    }
+
+    #code {
+      width: 5.2vh !important;
+      text-align: center;
+      border-color: #ed24d3!important;
+    }
+
+    #code:focus, #code:active {
+      outline: none!important;
+      border: none!important;
+    }
+
+    .resend {
+      width: 20vh;
+      height: 7vh;
+      margin-top: 3vh;
+      border: 0.4vh solid #ed24d3;
+      background-color: transparent;
+      border-radius: 1.5vh;
+    }
+
+    .resend:focus, .resend:active {
+      border-color: #ab19a1;
+      background-color: transparent;
+    }
+
+    .next2 {
+      width: 30vh;
+      height: 7vh;
+      margin-top: 20vh;
+      border: 0.4vh solid #ed24d3;
+      background-color: transparent;
+      border-radius: 1.5vh;
+    }
+
+    .next2:focus, .next2:active {
+      border-color: #ab19a1;
+      background-color: transparent;
+    }
+
+    .contenedor{
+      margin-top: 2vh;
+    }
+
+    .icou, .name-in, .mailin{
+      display: inline-block;
+    }
+
+    .icou{
+      font-size: 3vh;
+    }
+    #name {
+      width: 25vh !important;
+      text-align: center;
+      margin-left: 2vh;
+      margin-right: 2vh;
+      border-color: #ed24d3!important;
+    }
+
+    #lastname{
+      width: 25vh !important;
+      text-align: center;
+      border-color: #ed24d3!important;
+    }
+
+    #email{
+      margin-left: 2vh;
+      width: 52.3vh;
+      text-align: center;
+      border-color: #ed24d3!important;
+    }
+
+    .check{
+      margin-top: 2vh;
+    }
+
+    .fimg1{
+      width: 30vh;
+      height: auto;
+      margin-top: 10vh;
+    }
+    .fimg2{
+      width: 6vh;
+      height: auto;
+    }
+
+    .next3 {
+      width: 30vh;
+      height: 7vh;
+      margin-top: 15vh;
+      border: 0.4vh solid #ed24d3;
+      background-color: transparent;
+      border-radius: 1.5vh;
+    }
+
+    .next3:focus, .next3:active {
+      border-color: #ab19a1;
+      background-color: transparent;
+    }
